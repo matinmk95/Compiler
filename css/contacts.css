@@ -1,0 +1,25 @@
+input,
+textarea {
+  background-color: #f6f6f6 !important;
+  color: black !important;
+  outline: none;
+  border: none;
+}
+textarea::placeholder,
+input::placeholder {
+  color: gray !important;
+}
+.link-default {
+  color: gray;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a:hover {
+  color: #ffb262;
+}
+a {
+  transition: ease-in-out 0.3s;
+}
